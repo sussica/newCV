@@ -1,0 +1,89 @@
+hr {
+  border: 0;
+  border-top: 5px dotted #eeeeee;
+  height: 0;
+  width: 5%;
+  margin: 80px auto;
+}
+
+.center {
+  text-align: center;
+}
+
+
+/* title */
+#title {
+  background-color: #a6e3e9;
+  padding: 5% 15%;
+  height: 550px;
+  position: relative;
+}
+
+.title-image {
+  width: 30%;
+}
+
+.title-text-color {
+  color: #2f9296;
+}
+
+.title-text {
+  font-family: 'Sacramento', cursive;
+  font-size: 4.3em;
+  margin: 20px;
+}
+
+.brief {
+  font-family: 'Sniglet', cursive;
+  font-size: 1.5em;
+}
+
+.planet {
+  width: 13%;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+}
+
+.sun {
+  width: 19%;
+  position: absolute;
+  top: 3%;
+  right: 10%;
+}
+
+.earth {
+  width: 14%;
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+}
+
+@media (min-width: 800px) {
+  .title-text-box {
+    position: relative;
+    top: 30%;
+  }}
+
+  /* intro */
+#intro{
+
+}
+
+.avatar{
+    width:12%;
+    margin: 50px;
+}
+
+.hello {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+  color: #2f9296;
+  font-weight: bolder;
+}
+
+.myinfo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
