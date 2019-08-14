@@ -10,6 +10,13 @@ hr {
   text-align: center;
 }
 
+h3 {
+  color: #f68787;
+}
+
+li{
+  font-family: 'Raleway', cursive;
+}
 
 /* title */
 #title {
@@ -98,14 +105,14 @@ hr {
 }
 
 table {
-  width: 100%;
+  width: 80%;
   margin: auto;
 }
 
 .skill {
   display: table-cell;
   width: 50%;
-  padding: 30px 70px;
+  padding: 30px;
   font-family: 'Raleway', sans-serif;
   font-size: 1.2em;
   line-height: 1;
@@ -123,3 +130,63 @@ table {
 .right {
   text-align: right;
 }
+
+@media (max-width: 1000px) {
+  .skill {
+    font-size: 1.2em;
+  }}
+
+/* work experience */
+.work-ex{
+
+
+}
+
+.blog{
+  position: relative;
+}
+
+ul {
+  line-height: 1.5;
+}
+
+li:before {
+  margin-right: 10px;
+}
+
+.cibc-photo{
+  margin: 20px;
+  display: inline-block;
+}
+
+.work-info{
+
+}
+
+  /* button */
+
+
+  .butn {
+    background: #66BFBF;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    display: inline;
+  }
+
+  .butn:hover {
+    background: #f69787;
+    text-decoration: none;
+  }
+
+
+  .button {
+    display: inline;
+    position: absolute;
+    right: 0;
+    top: 10%;
+  }
