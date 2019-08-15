@@ -70,7 +70,13 @@ li{
   .title-text-box {
     position: relative;
     top: 30%;
-  }}
+  }
+
+  .tech-notes{
+  padding: 10px;
+  }
+
+}
 
   /* intro */
 
@@ -134,17 +140,24 @@ table {
 @media (max-width: 1000px) {
   .skill {
     font-size: 1.2em;
-  }}
+  }
+  .tech-notes{
+  width:100%;
+  margin: 20px;
+  padding: 10px;
+  }
+
+
+}
 
 /* work experience */
 .work-ex{
 
+margin: 40px 80px;
 
 }
 
-.blog{
-  position: relative;
-}
+
 
 ul {
   line-height: 1.5;
@@ -155,38 +168,20 @@ li:before {
 }
 
 .cibc-photo{
-  margin: 20px;
-  display: inline-block;
+margin: auto;
+padding: 20px;
 }
 
-.work-info{
 
-}
 
   /* button */
 
 
   .butn {
     background: #66BFBF;
-    border-radius: 10px;
-    font-family: 'Raleway', sans-serif;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-    margin: 10px;
-    display: inline;
   }
 
   .butn:hover {
     background: #f69787;
     text-decoration: none;
-  }
-
-
-  .button {
-    display: inline;
-    position: absolute;
-    right: 0;
-    top: 10%;
   }
