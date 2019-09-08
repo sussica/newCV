@@ -10,11 +10,20 @@ hr {
   text-align: center;
 }
 
+.full-width{
+  width: 100%;
+}
+
 h3 {
   color: #f68787;
 }
 
-li{
+h6 {
+  color: #f68787;
+  font-family: 'Raleway', cursive;
+}
+
+ul{
   font-family: 'Raleway', cursive;
 }
 
@@ -188,5 +197,126 @@ padding: 20px;
 
 /* project-ex */
 .project-ex{
+
+  margin: 20px 0px;
+  padding: 30px;
+
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+ height: 70px;
+ width: 70px;
+
+ background-size: 100%, 100%;
+
+
+ background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+ content: '>';
+ font-size: 40px;
+ color: #2f9296;
+}
+
+.carousel-control-prev-icon:after {
+ content: '<';
+ font-size: 40px;
+ color: #2f9296;
+}
+
+
+
+
+/* last part */
+.butn-area {
+  position: relative;
+}
+
+.butn {
+  background: #66BFBF;
+  border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 10px;
+  display: inline;
+}
+
+.butn:hover {
+  background: #f69787;
+  text-decoration: none;
+}
+
+
+.button {
+  display: inline;
+  position: absolute;
+  right: 0;
+  top: 10%;
+}
+
+/****bottom container***/
+.bottom-container {
+  text-align: center;
   background-color: #a6e3e9;
+  margin-bottom: 0;
+  position: relative;
+  top: 16px;
+  height: 150px;
+}
+
+.foot-print {
+  background: #f69787;
+  border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 10px;
+  display: inline;
+  position: relative;
+  top:35px;
+}
+
+.foot-print:hover {
+  background: #66BFBF;
+  text-decoration: none;
+}
+
+.cyr {
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  top: 55px;
+  color: white;
+  font-size: 1.2em;
+}
+
+.contactmebutn{
+
+}
+
+.contactmebutn {
+  background: #f69787;
+  border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 10px;
+  display: inline;
+  position: fixed;
+  right:1%;
+  top:20px;
+}
+
+.contactmebutn:hover {
+  background: #66BFBF;
+  text-decoration: none;
 }
